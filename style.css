@@ -1,0 +1,136 @@
+body{
+    background-color: hsl(185, 75%, 39%);
+    max-width: 1440px;
+    max-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    min-width: 600px;
+}
+
+.main-container{
+    margin: 0 auto;
+    width: 100%;
+    height: 100vh;
+}
+.bg-img-top{
+    position: fixed;
+    top: -20rem;
+    left: -20rem;
+    width: 70%;
+}
+.bg-img-bottom{
+    position: fixed;
+    width: 80%;
+    bottom: -30rem;
+    right: -20rem;
+}
+
+.card{
+    position: absolute;
+    top: 20%;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 600px;
+    height: 600px;
+    background-color: #eee;
+    border-radius: 20px;
+    box-shadow:  1px 1px 5px rgb(0 0 0 / 0.5);
+}
+.header-card{
+    background: url(./images/bg-pattern-card.svg);
+    width: 100%;
+    height: 40%;
+    border-radius: 18px 18px 0 0;
+    
+}
+.img{
+    position: absolute;
+    border-radius: 50%;
+    top: 9rem;
+    border: solid #eee;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    width: 150px;
+}
+.count-box{
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    bottom: 0;
+}
+.count-box2{
+    text-align: center;
+    
+}
+
+.count-box1{
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+.count{
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-left: 1rem;
+    opacity: 0.6;
+}
+
+.count-name{
+    font-size: 1.2rem;
+    margin: 3.9rem;
+    padding: 0;
+    opacity: 0.5;
+}
+.count-max{
+    margin-left: -1rem;
+}
+.break{
+    opacity: 0.5;
+    margin-top: 10rem; 
+}
+.location{
+    position: absolute;
+    opacity: 0.5;
+    font-size: 1.5rem;
+    text-align: center;
+    top: 22rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.name{
+    position: absolute;
+    font-size: 2rem;
+    text-align: center;
+    top: 19rem;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-weight: bolder;
+    opacity: 0.6;
+}
+.age{
+    position: absolute;
+    top: 18.8rem;
+    left: 23rem;
+    right: 0;
+    bottom: 0;
+    opacity: 0.5;
+    
+}
+@media (min-width: 1500px){
+    .bg-img-top, .bg-img-bottom{
+        width: 40%;
+    }
+    body{
+        min-width: 600px;
+    }
+}
+@media (max-width: 800px){
+    .bg-img-top, .bg-img-bottom{
+        width: 100%;
+    }
+   
+}
