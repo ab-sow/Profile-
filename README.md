@@ -1,5 +1,6 @@
 # Profile-
 Profile web block with html and css
+- Live Site URL: (https://ab-sow.github.io/Profile-/)
 
 # Frontend Mentor - Stats preview card component solution
 
@@ -29,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://github.com/ab-sow/Profile-)
+- Live Site URL: (https://ab-sow.github.io/Profile-/)
 
 ## My process
 
