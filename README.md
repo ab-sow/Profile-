@@ -1,6 +1,6 @@
 # Profile-
 Profile web block with html and css
-- Live Site URL: (https://ab-sow.github.io/Profile-/)
+- [Live Site URL:] (https://ab-sow.github.io/Profile-/)
 
 # Frontend Mentor - Stats preview card component solution
 
